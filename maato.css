@@ -8,7 +8,7 @@
 
 #h11{
     height: 0px;
-    width: 260px;
+    width: 482px;
     text-align: center;
     font-size: 40px;
     margin-top:55px;
@@ -162,7 +162,7 @@ flex-wrap: wrap;
   
 #me1{
 
-height: 504px;
+height: 430px;
 width: 1320px;
 display: flex;
 flex-wrap: wrap;
@@ -214,11 +214,12 @@ transition: 1s ease-in-out;
     text-align: center;
     padding-top: 20px;
     border:1px solid rgb(217, 215, 218);
-    box-shadow: 0px 0px 3px rgb(217, 215, 218) ;
+    box-shadow: 0px 0px 15px rgb(217, 215, 218) ;
+    transition: 1s ease-in-out;
 }
 #bl1:hover{
-    border: 1px solid rgb(50, 122, 68);
-    color: rgb(50, 122, 68);
+    border: 1px solid rgb(69, 161, 92);
+    color: rgb(55, 145, 77);
 }
 
  #cr1{
@@ -255,7 +256,9 @@ height: 530px;
 width: 300px;
 margin:50px 66px 50px 72px;
 box-shadow: 0px 0px 15px gray;
+transition: 2s ease-in-out;
 }
+
 #cni{
     height: 250px;
     width: 300px;
@@ -521,16 +524,16 @@ background-color: rgb(42, 167, 52);
     width: 100px;
     border-radius: 25px;
     border: 2px solid rgb(165, 164, 164);
-    margin-left: 10px;
+    margin-left: 200px;
     color: white;
     font-size: 16px;
-    background-color: rgb(88, 235, 95);
+    background-color: rgb(45, 129, 49);
     transition: 1s ease-in-out;
-    box-shadow:0px 0px 25px gray;
+    box-shadow:0px 0px 15px gray;
 }
 #navbt1:hover{
-    color: rgb(98, 241, 105);
-    background-color: white;
+    color: rgb(55, 131, 59);
+    background-color: rgb(224, 166, 166);
 }
 
 /* @media(max_width>=600px){

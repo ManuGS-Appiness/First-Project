@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MAAAATO</title>
+    <title>MAAAANTO</title>
     <link rel="stylesheet" href="maato.css">
 </head>
 
@@ -31,32 +31,24 @@
 </div> -->
     <div id="IdN">
         <form action="submit">
-            <h1 style="text-align: center;color: rgb(143, 143, 228);">Create</h1>
+            <h1 style="text-align: center;color: rgb(143, 143, 228);">Create Your Account</h1>
             <div>
-
-                <input type="text" name="Name" id="FirName" value="" placeholder="First name">
-                <input type="text" name="Name" id="SecName" value="" placeholder="Second name">
-                <input type="email" name="email" id="Email" value="" placeholder="Your Email">
-                <input type="text" name="number" id="Number" value="" placeholder="Phone number">
-
+                <input type="text" name="FName" id="FirName" value="" placeholder="First name" required>
+                <input type="text" name="SName" id="SecName" value="" placeholder="Second name" required>
+                <input type="email" name="email" id="Email" value="" placeholder="Your Email" required>
+                <input type="text" name="number" id="Number" value="" placeholder="Phone number" required>
                 <input type="input" id="Passwordss" placeholder="NewPassword" required>
-                <div> <input type="radio" id="gen" name="gender" value="male" > Male
+                <div> 
+                    <input type="radio" id="gen" name="gender" value="male" > Male
                     <input type="radio" id="gen" name="gender" value="female" > Female
                     <input type="radio" id="gen" name="gender" value="Others" > Others
                 </div>
-
+                <hr>
                 <button id="navbt1">Submit</button>
                 <script src="js.js"></script>
             </div>
-
     </div>
-
-
-
     </form>
-
-
-
     <script src="js.js"></script>
 </body>
 

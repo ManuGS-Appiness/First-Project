@@ -53,21 +53,18 @@
 
 // console.log(bookData)
 // }
-const manubtn = document.querySelector("#navbt1");
+ const manubtn = document.querySelector("#navbt1");
 const first = document.querySelector("#FirName");
 const number = document.querySelector("#Number");
 const second = document.querySelector("#SecName");
 const email = document.querySelector('#Email');
-const password = document.querySelector("Passwordss");
+const password = document.querySelector("#Passwordss");
 
 manubtn.addEventListener('click', function () {
-    if ((first.value.length != "") && ((second.value.length != "") || (second.value.length == "")) && (number.value.length == 10) && (email.value.length != "") && ((password.value.length >= 8) && (password.value.length <= 13)));
+    if ((first.value.length != "") && ((second.value.length != "") || (second.value.length == "")) && (number.value.length == 10) && (email.value.length != "") &&  ((password.value.length >= 8) && (password.value.length <= 13)));
     {
         alert("Welcome to Maanto, You are a now a subscriber");
     }
-
-
         alert("Fill the section correctly");
-   
 })
 
