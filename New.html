@@ -29,29 +29,31 @@
         <input type="input" id="Passwordss" placeholder="NewPassword">
     </div>
 </div> -->
-<div id="IdN">
-<form onsubmit="CreateNewAccount(event)">
-    <h1 style="text-align: center;color: rgb(143, 143, 228);">Create</h1>
-<div>
+    <div id="IdN">
+        <form action="submit">
+            <h1 style="text-align: center;color: rgb(143, 143, 228);">Create</h1>
+            <div>
 
-    <input  type="text" name="Name" id="FirName" placeholder="First name" required>
-    <input  type="text" name="Name" id="SecName" placeholder="Second name" required>
-    <input  type="email" name="email" id="Email" placeholder="Your Email" required>
-    <input  type="text" name="number" id="Number" placeholder="Phone number" required>
-    <div>
-    <input type="input" id="Passwordss" placeholder="NewPassword" required>
-    <input type="radio"  name="gender" value="male"> Male
-<input type="radio" name="gender" value="female"> Female
-<input type="radio" name="gender" value="Others"> Others</div>
+                <input type="text" name="Name" id="FirName" value="" placeholder="First name">
+                <input type="text" name="Name" id="SecName" value="" placeholder="Second name">
+                <input type="email" name="email" id="Email" value="" placeholder="Your Email">
+                <input type="text" name="number" id="Number" value="" placeholder="Phone number">
 
-    <button id="navbt">Submit</button>
-</div>
+                <input type="input" id="Passwordss" placeholder="NewPassword" required>
+                <div> <input type="radio" id="gen" name="gender" value="male" > Male
+                    <input type="radio" id="gen" name="gender" value="female" > Female
+                    <input type="radio" id="gen" name="gender" value="Others" > Others
+                </div>
 
-</div>
+                <button id="navbt1">Submit</button>
+                <script src="js.js"></script>
+            </div>
+
+    </div>
 
 
 
-</form>
+    </form>
 
 
 
@@ -59,4 +61,3 @@
 </body>
 
 </html>
-
