@@ -10,6 +10,7 @@
 </head>
 
 <body>
+    <!-- <form action="" oclick=></form>
     <div id="IdN">
     <div id="FS">
         <div>
@@ -27,8 +28,29 @@
     <div>
         <input type="input" id="Passwordss" placeholder="NewPassword">
     </div>
+</div> -->
+<div id="IdN">
+<form onsubmit="CreateNewAccount(event)">
+    <h1 style="text-align: center;color: rgb(143, 143, 228);">Create</h1>
+<div>
+
+    <input  type="text" name="Name" id="FirName" placeholder="First name" required>
+    <input  type="text" name="Name" id="SecName" placeholder="Second name" required>
+    <input  type="email" name="email" id="Email" placeholder="Your Email" required>
+    <input  type="number" name="number" id="Number" placeholder="Phone number" required>
+    <input type="input" id="Passwordss" placeholder="NewPassword" required>
 </div>
+
+</div>
+
+
+
+</form>
+
+
+
     <script src="js.js"></script>
 </body>
 
 </html>
+
